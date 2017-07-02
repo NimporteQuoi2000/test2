@@ -7,4 +7,4 @@ import './main.css';
 
 $(document).ready(() => {
     console.log('it works!!');
-})
+});
