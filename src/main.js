@@ -6,5 +6,5 @@ import Chart from 'chart.js';
 import './main.css';
 
 $(document).ready(() => {
-    console.log('it works!');
+    console.log('it works!!');
 })
