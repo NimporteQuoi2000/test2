@@ -17,6 +17,12 @@ module.exports = {
   ],
   // add your custom rules here
   'rules': {
+    // si décommenté, fait pas chier avec mes variables inutilisées
+    "no-unused-vars": [0, { "varsIgnorePattern": "^h$" }],
+    // enforce semi
+    "semi": ["error", "always"],
+    // use 4 spaces indent
+    "indent": ["error", 4],
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // allow async-await
